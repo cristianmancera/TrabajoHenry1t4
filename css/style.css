@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*HEADER*/
+header{
+    background-color: rgb(30, 23, 47);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 200px;
+    width: 30%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+.ul1{
+    width: 20%;
+}
+.ul2{
+    width: 100%;
+    align-items: center;
+}
+.ul2 a{
+    font-size: 125%;
+    text-decoration: none;
+}
+.he__links1 a{
+    color: white;
+}
+.he__links2 a{
+    color: rgb(124,119,133);
+}
+.he__links5 a{
+    background: linear-gradient(90deg, rgba(136,64,213,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/*SECTION 1*/
+.sec__1{
+    display: flex;
+    flex-direction: row;
+}
+.mitadL{
+    background-color: rgb(46, 37, 80);
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 93vh;
+}
+.mitadL h2{
+    text-align: start;
+    margin-left: 300px;
+    font-size: 500%;
+}
+.mitadL p{
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 300px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.L__botones{
+    border: 1px solid grey;
+    width: 250px;
+    height: 50px;
+    margin: 15px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.L__botones a{
+    text-decoration:none ;
+}
+.se1__b1{
+    color: rgb(244,20,134);
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.se1__b2{
+    color: white;
+    background-color: rgb(46, 37, 80);
+    border-radius:5px ;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+}
+.mitadR{
+    width: 50%;
+    background-image: url(../images/hojasFondo.jfif);
+    opacity: 0.65;
+    background-size: cover;
+    background-position: 50% ;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 70px 150px;
+    height: 93vh;
+}
+/*SECTION 2*/
+.sec__2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+.sec2__img{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.imag1{
+    width: 60%;
+    margin-bottom: 100px;
+}
+.sec2__con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec__2 h2{
+    color: rgb(244,20,134);
+    font-size: 350%;
+    margin-top: 20px;
+}
+.sec2__texto{
+    width: 43%;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+}
+.sec2__texto h4{
+    color: rgb(244,20,134);
+    font-size: 140%;
+}
+.sec2T__list, .sec2__texto p{
+    font-size: 130%;
+}
+.sec2T__list li p{
+    color: rgb(244,20,134);
+    margin-right: 5px;
+}
+.sec2T__tit1{
+    color: rgb(193, 80, 139);
+    font-size: 200%;
+    margin: 60px 0 20px 0;
+}
+.sec2T__list li{
+    display: flex;
+    flex-direction: row;
+}
+/*SECTION 3 PRECIOS*/
+.sec__3{
+    background-color: rgb(46, 37, 80);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding-bottom: 50px;
+}
+.sec3__tit{
+    color: white;
+    font-size: 350%;
+}
+.sec3__tex{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.sec3_partes{
+    display: flex;
+    width: 60%;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec3__n1{
+    background-color: white;
+    box-shadow: -8px 5px 15px rgba(244, 20, 136, 0.5);
+    width: 25%;
+    height: 55vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.n1__links{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+}
+.n1__links ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.n1__links ul{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.n1__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.n1img__tit{
+    color: rgb(244,20,134);
+}
+.n1__precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    height: 13%;
+    width: 100%;
+}
+.valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.n1__precio h3{
+    font-size: 190%;
+}
+.n1__precio h4{
+    font-size: 80%;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.tez{
+    text-align: center;
+    width: 90%;
+}
+.boton{
+    background-color:rgb(46,37,80) ;
+    color: white;
+    text-decoration: none;
+    height: 80%;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.boton1{
+    background: linear-gradient(90deg, rgba(235,102,170,1) 0%, rgba(244,24,136,1) 100%);
+    text-decoration: none;
+    color: white;
+    height: 80%;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.bot{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.x1{
+    color: rgb(244,20,134);
+}
+/*FOOTER*/
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.color{
+    display: flex;
+    align-items: center;
+}
+.color b{
+    color: rgb(244,20,134);
+    margin: 0 2px 0 2px;
+}
