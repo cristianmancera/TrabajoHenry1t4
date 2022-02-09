@@ -18,7 +18,7 @@ header nav{
     align-items: center;
     justify-content: space-around;
     margin-right: 200px;
-    width: 30%;
+    width: 40%;
 }
 header ul{
     display: flex;
@@ -36,7 +36,7 @@ ul li{
     align-items: center;
 }
 .ul2 a{
-    font-size: 125%;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 .he__links1 a{
@@ -67,6 +67,7 @@ ul li{
     justify-content: center;
     text-align: center;
     height: 93vh;
+    align-items: flex-start;
 }
 .mitadL h2{
     text-align: start;
@@ -317,4 +318,25 @@ footer{
 .color b{
     color: rgb(244,20,134);
     margin: 0 2px 0 2px;
+}
+@media (max-width:1300px){
+    header nav{
+        width: 60%;
+        margin-right: 100px;
+    }
+    .ul2 a{
+        font-size: 1.7rem;
+    }
+    .mitadL h2,.mitadL p,.L__botones{
+        margin-left: 50px;
+    }
+    .sec2__texto{
+        padding-right: 80px;
+    }
+    .sec3_partes{
+        width: 90%;
+    }
+    .mitadR{
+        padding: 0 0 10px 10px;
+    }
 }
